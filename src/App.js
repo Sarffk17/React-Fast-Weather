@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import axios from 'axios'
 import SearchBar from "./SearchBar";
 import './App.css';
