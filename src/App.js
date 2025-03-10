@@ -1,17 +1,20 @@
-import SearchBar from "./SearchBar";
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Weather App
-        </h1>
-        <SearchBar />
-      </header>
+      <div className="container">
+        <Weather defaultCity="Milwaukee" />
+
+        <footer>
+          This project was coded by{" "}
+          <a href = "https://github.com/Sarffk17"> Kelly Sarff</a> and is on 
+          <a href = "https://github.com/Sarffk17/React-Fast-Weather"> GitHub</a> and hosted on 
+          <a href = "https://react-fast-weather.netlify.app/">Netlify.</a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
