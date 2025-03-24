@@ -12,7 +12,7 @@ export default function App() {
           This project was coded by{" "}
           <a href = "https://github.com/Sarffk17"> Kelly Sarff</a> and is on 
           <a href = "https://github.com/Sarffk17/React-Fast-Weather"> GitHub</a> and hosted on 
-          <a href = "https://react-fast-weather.netlify.app/">Netlify.</a>
+          <a href = "https://react-fast-weather.netlify.app/"> Netlify.</a>
         </footer>
       </div>
     </div>
