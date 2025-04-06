@@ -5,8 +5,8 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+const container = document.getElementById("root");
+const root = createRoot(container);
 
 root.render(
   <StrictMode>
